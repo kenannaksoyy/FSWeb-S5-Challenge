@@ -10,9 +10,9 @@ Bu sprint mücadelesi sırasında işbirliği yapmanıza izin verilmez.
 
 ### Proje Kurulumu
 
-* [ ] Bu projenyi forklayarak bir kopyasını oluşturun.
-* [ ] Reponun kendi versiyonunuzu klonlayın.
-* [ ] Commitinizi pushlayın: `git push origin main`.
+* [x] Bu projenyi forklayarak bir kopyasını oluşturun.
+* [x] Reponun kendi versiyonunuzu klonlayın.
+* [x] Commitinizi pushlayın: `git push origin main`.
 
 ## Proje Açıklaması
 
@@ -26,17 +26,17 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 
 ### Detaylar
 
-- [ ] Komut satırınızla projenin kök dizinine gidin.
-- [ ] `package.json` dosyasında listelenen bağımlılıkları indirmek için `npm install` komutunu çalıştırın.
-- [ ] Projeyi derlemek ve sunmak için `npm start` komutunu çalıştırın.
-- [ ] Chrome'da `http://localhost:3000` konumuna gidin
-- [ ] Testleri çalıştırmak için ayrı bir terminalde `npm test` komutunu yazın.
+- [x] Komut satırınızla projenin kök dizinine gidin.
+- [x] `package.json` dosyasında listelenen bağımlılıkları indirmek için `npm install` komutunu çalıştırın.
+- [x] Projeyi derlemek ve sunmak için `npm start` komutunu çalıştırın.
+- [x] Chrome'da `http://localhost:3000` konumuna gidin
+- [x] Testleri çalıştırmak için ayrı bir terminalde `npm test` komutunu yazın.
 
 **MVP için adımlar:**
 
-- [ ] Adım 1 ve 2 `src/bileşenler/header.js` dosyasında açıklandı.
-- [ ] Adım 3 ve 4 `src/bileşenler/tabs.js` dosyasında açıklandı.
-- [ ] Adım 5 ve 6 `src/bileşenler/card.js` dosyasında açıklandı.
+- [x] Adım 1 ve 2 `src/bileşenler/header.js` dosyasında açıklandı.
+- [x] Adım 3 ve 4 `src/bileşenler/tabs.js` dosyasında açıklandı.
+- [x] Adım 5 ve 6 `src/bileşenler/card.js` dosyasında açıklandı.
 
 **Önemli Notlar:**
 
@@ -53,7 +53,12 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. DOM nedir?
+DOM dokümanlara erişmek için olan bir W3C standardıdır. DOM dokümandaki nesnelere erişmek ve içeriğini, stilini, yapısını değiştirmek için kullanılır.
 2. Bir event nedir?
+HTML nesneleri üzerinde oluşan her eylem bir olaydır. JavaScript HTML nesneleri üzerinde oluşan olay sonucunda işlem yapabilir.
 3. Bir event dinleyici(listener) nedir?
+Event listener, bir kullanıcı bir düğmeyi tıkladığında olduğu gibi, belirli bir olay gerçekleştiğinde çağrılacak işlevleri ayarlamanıza olanak sağlamaktadır.
 4. Neden bir NodeList'i Array'e dönüştürelim??
+Gereklilik durumunda ulaşmak ve kullanmak için.
 5. Bileşen nedir?
+Bileşenler, uygulamanızı tekrar kullanılabilir parçalara ayırmanıza ve her bir parçayı ayrı ayrı düşünmenize izin verir.
